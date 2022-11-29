@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\bin\Debug\net6.0\Hello User.exe
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\bin\Debug\net6.0\Hello User.deps.json
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\bin\Debug\net6.0\Hello User.runtimeconfig.json
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\bin\Debug\net6.0\Hello User.dll
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\bin\Debug\net6.0\Hello User.pdb
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.AssemblyInfo.cs
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.dll
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\refint\Hello User.dll
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.pdb
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\Hello User.genruntimeconfig.cache
+C:\Users\HP\Desktop\структура\1. geek\5. Языки программирования\CSharp\Lessons\Lessons_CSharp\Lessons_01\Hello User\obj\Debug\net6.0\ref\Hello User.dll
