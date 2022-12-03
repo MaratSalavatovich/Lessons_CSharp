@@ -1,2 +1,31 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// максимум из 9 чисел
+
+//Решение стихийно - через кучу строк кода  
+int Max(int arg1, int arg2, int arg3) // int - тип возвращаемый аргумент (в данном случае целое число), Max - имя функции, далее в скобках int - тип аргумента (целое число) и имя аргумента arg1, arg2, arg3
+{
+    int result = arg1;
+    if (arg2 > result) result = arg2;
+    if (arg3 > result) result = arg3;
+    return result;
+}
+int a1 = 500;
+int b1 = 22;
+int c1 = 33;
+int a2 = 14;
+int b2 = 422;
+int c2 = 2412414;
+int a3 = 12;
+int b3 = 23;
+int c3 = 311;
+
+//int max1 = Max(a1, b1, c1); //Через нашу функцию по поиску максимуму 3 чисел из первых 3 групп игроков
+//int max2 = Max(a2, b2, c2); //Через нашу функцию по поиску максимуму 3 чисел из второй 3 групп игроков
+//int max3 = Max(a3, b3, c3); //Через нашу функцию по поиску максимуму 3 чисел из третий 3 групп игроков
+//int max = Max(max1, max2, max3);  // из 3 максимальных числе ищем максимальное число
+int max = Max( //упрощенный вариант - более сжатый 
+    Max(a1, b1, c1), 
+    Max(a2, b2, c2), 
+    Max(a3, b3, c3)
+    );
+
+Console.WriteLine(max); // вывести максимальное число
