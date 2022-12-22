@@ -1,49 +1,54 @@
 public class MyLibrary
 {
-    // Метод заполнения рандомным трехзначным числом
-    static public void FillArrayRandomPosNumbers(int[] numbers)
+
+
+    /// <summary>
+    /// Создание массива в интервале -100 до 100
+    /// </summary>
+    /// <param name="collect"> Имя массива </param>
+    static public void FillArrayRandom(int[] collect)
     {
-        for (int i = 0; i < numbers.Length; i++)
+        int index = 0;
+        int count = collect.Length;
+        while (index < count)
         {
-            numbers[i] = new Random().Next(100, 999);
+            collect[index] = new Random().Next(-100, 100);
+            index++;
         }
     }
-    // Метод заоплнения рандомным двухзначным числом от [-99 99]
-    static public void FillArrayRandomNumbers(int[] numbers)
+    /// <summary>
+    /// Метод Вывод массива в консоль
+    /// </summary>
+    /// <param name="col"></param>
+    static public void PrintArray(int[] col)
     {
-        for (int i = 0; i < numbers.Length; i++)
+        int count = col.Length;
+        int position = 0;
+        while (position < count)
         {
-            numbers[i] = new Random().Next(-99, 99);
+            Console.Write($"{col[position]} ");
+            position++;
         }
     }
-    // Метод вывода в консоль 
-    static public void PrintArray(int[] numbers)
+    /// <summary>
+    /// Поиск на совпадение  в позиции
+    /// </summary>
+    /// <param name="collect"></param>
+    /// <param name="find"></param>
+    /// <returns></returns>
+    static public int IndexPosition(int[] collect, int find)
     {
-        Console.Write("[ ");
-        for (int i = 0; i < numbers.Length; i++)
+        int count = collect.Length;
+        int index = 0;
+        int position = -1;
+        while (index < count)
         {
-            Console.Write(numbers[i] + " ");
+            if (collect[index] == find)
+            {
+                position = index;
+            }
+            index++;
         }
-        Console.Write("]");
-        Console.WriteLine();
-    }
-    // Метод вывода в консоль  вещественых чисел
-    static public void PrintDoubleArray(double[] numbers)
-    {
-        Console.Write("[ ");
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            Console.Write(numbers[i] + " ");
-        }
-        Console.Write("]");
-        Console.WriteLine();
-    }
-    // Метод заполнения для рандомных вещественных чисел
-    public static void FillArrayRandomDoubleNumbers(double[] numbers)
-    {
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
-        }
+        return position;
     }
 }

@@ -3,7 +3,7 @@
 //782 -> 8
 //918 -> 1 ///
 
-int number = 3213;
+int number = 321;
 if ((number) > 99 && (number) < 1000) //Если выполняется данное условие - тогда проивзодим вычисление
     Console.WriteLine(number = (number / 10) % 10);
 else
